@@ -15,4 +15,4 @@ function quietConsoleConfig($quietConsoleProvider) {
 }
 ```
 
-The `igonre()` function, which is available at config time via `$quietConsoleProvider` and at runtime via `$quietConsole`, accepts a string or regular expression that will be compared via [String.prototype.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) to determine if a warning should be suppressed.
+The `igonre()` function, which is available at config time via `$quietConsoleProvider` and at runtime via `$quietConsole`, accepts a __string__ or __regular expression__ that will be compared to each console warning message via [String.prototype.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) to determine if the warning should be suppressed.
