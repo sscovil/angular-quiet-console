@@ -7,7 +7,7 @@ A simple module for hiding unwanted warnings in the browser console, inspired by
 Download it using your preferred method:
 
 Method | Command
-=======|========
+-------|--------
 NPM | `npm install angular-quiet-console`
 Bower | `bower install angular-quiet-console`
 GitHub | `git clone https://github.com/sscovil/quiet-console.git`
