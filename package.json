@@ -1,5 +1,5 @@
 {
-  "name": "quiet-console",
+  "name": "angular-quiet-console",
   "version": "1.0.0",
   "description": "A simple module for hiding unwanted warnings in the browser console",
   "main": "quiet-console.js",
