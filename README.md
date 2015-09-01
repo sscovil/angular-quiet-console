@@ -10,18 +10,18 @@ Method | Command
 -------|--------
 NPM | `npm install angular-quiet-console`
 Bower | `bower install angular-quiet-console`
-GitHub | `git clone https://github.com/sscovil/quiet-console.git`
+GitHub | `git clone https://github.com/sscovil/angular-quiet-console.git`
 
 Include it in your `index.html` file:
 
 ```html
-<script type="text/javascript" src="/path/to/quiet-console.js"></script>
+<script type="text/javascript" src="/path/to/angular-quiet-console.js"></script>
 ```
 
 Add it to your angular module as a dependency:
 
 ```javascript
-angular.module('myApp', ['quiet-console']);
+angular.module('myApp', ['angular-quiet-console']);
 ```
 
 ## Usage
@@ -29,7 +29,7 @@ angular.module('myApp', ['quiet-console']);
 Here is an example that gets rid of an actual [Angular Material](https://material.angularjs.org) console warning:
 
 ```javascript
-angular.module('myApp', ['quiet-console'])
+angular.module('myApp', ['angular-quiet-console'])
     .config(quietConsoleConfig);
     
 function quietConsoleConfig($quietConsoleProvider) {

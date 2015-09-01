@@ -1,7 +1,7 @@
 (function () {
     'use strict';
     
-    angular.module('quiet-console', [])
+    angular.module('angular-quiet-console', [])
         .provider('$quietConsole', QuietConsole)
     ;
     

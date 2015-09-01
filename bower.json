@@ -1,8 +1,8 @@
 {
   "name": "angular-quiet-console",
-  "main": "quiet-console.js",
+  "main": "angular-quiet-console.js",
   "version": "1.0.0",
-  "homepage": "https://github.com/sscovil/quiet-console",
+  "homepage": "https://github.com/sscovil/angular-quiet-console",
   "authors": [
     "Shaun Scovil <ssscovil@gmail.com>"
   ],
