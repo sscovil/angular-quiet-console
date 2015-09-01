@@ -4,19 +4,19 @@ A simple module for hiding unwanted warnings in the browser console, inspired by
 
 ## Installation
 
-1. Download it using your preferred method:
+Download it using your preferred method:
 
 * NPM: `npm install angular-quiet-console`
 * Bower: `bower install angular-quiet-console`
 * GitHub: `git clone https://github.com/sscovil/quiet-console.git`
 
-2. Include it in your `index.html` file:
+Include it in your `index.html` file:
 
 ```html
 <script type="text/javascript" src="/path/to/quiet-console.js"></script>
 ```
 
-3. Add it to your angular module as a dependency:
+Add it to your angular module as a dependency:
 
 ```javascript
 angular.module('myApp', ['quiet-console']);
