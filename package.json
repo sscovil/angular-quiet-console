@@ -1,0 +1,27 @@
+{
+  "name": "quiet-console",
+  "version": "1.0.0",
+  "description": "A simple module for hiding unwanted warnings in the browser console",
+  "main": "quiet-console.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sscovil/quiet-console.git"
+  },
+  "keywords": [
+    "angular",
+    "console",
+    "warning",
+    "hide",
+    "suppress",
+    "material"
+  ],
+  "author": "Shaun Scovil <sscovil@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sscovil/quiet-console/issues"
+  },
+  "homepage": "https://github.com/sscovil/quiet-console#readme"
+}
