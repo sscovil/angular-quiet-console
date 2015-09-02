@@ -33,8 +33,8 @@ angular.module('myApp', ['angular-quiet-console'])
     .config(quietConsoleConfig);
     
 function quietConsoleConfig($quietConsoleProvider) {
-    $quietConsoleProvider.ignore(/The placeholder='.*' will be ignored since this md-input-container has a child label element\./);
+    $quietConsoleProvider.ignore(/^The placeholder='.*' will be ignored since this md-input-container has a child label element\.$/);
 }
 ```
 
-The `igonre()` function, which is available at config time via `$quietConsoleProvider` and at runtime via `$quietConsole`, accepts a __string__ or __regular expression__ that will be compared to each console warning message via [String.prototype.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) to determine if the warning should be suppressed.
+The `igonre()` function is available at config time via `$quietConsoleProvider` and at runtime via `$quietConsole`, and is chainable. It accepts a __string__ or __regular expression__ that will be compared to each console warning message using [String.prototype.match()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/match) to determine if the warning should be suppressed.

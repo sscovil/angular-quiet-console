@@ -1,18 +1,18 @@
 (function () {
     'use strict';
-    
+
     angular.module('angular-quiet-console', [])
         .provider('$quietConsole', QuietConsole)
     ;
     
     function QuietConsole() {
-        var _ignorePatterns, provider;
+        var _ignorePatterns, self;
 
         _ignorePatterns = [];
 
-        provider = this;
-        provider.ignore = ignore;
-        provider.$get = Factory;
+        self = this;
+        self.ignore = ignore;
+        self.$get = Factory;
 
         if (console && console.warn) {
             console._warn = console.warn;
@@ -20,14 +20,16 @@
         }
 
         function Factory() {
-            var factory;
+            var self;
 
-            factory = this;
-            factory.ignore = ignore;
+            self = this;
+            self.ignore = ignore;
         }
 
         function ignore(stringOrPattern) {
             _ignorePatterns.push(stringOrPattern);
+
+            return self;
         }
 
         function warn(message) {

@@ -1,29 +1,28 @@
 {
-  "name": "angular-quiet-console",
-  "main": "angular-quiet-console.js",
-  "version": "1.0.0",
-  "homepage": "https://github.com/sscovil/angular-quiet-console",
-  "authors": [
-    "Shaun Scovil <ssscovil@gmail.com>"
-  ],
-  "description": "A simple module for hiding unwanted warnings in the browser console",
-  "moduleType": [
-    "angularjs"
-  ],
-  "keywords": [
-    "angular",
-    "console",
-    "warning",
-    "hide",
-    "suppress",
-    "material"
-  ],
-  "license": "MIT",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ]
+    "name"       : "angular-quiet-console",
+    "main"       : "angular-quiet-console.js",
+    "version"    : "1.1.0",
+    "homepage"   : "https://github.com/sscovil/angular-quiet-console",
+    "authors"    : [
+        "Shaun Scovil <ssscovil@gmail.com>"
+    ],
+    "description": "A simple module for hiding unwanted warnings in the browser console",
+    "moduleType" : [
+        "angularjs"
+    ],
+    "keywords"   : [
+        "angular",
+        "console",
+        "warning",
+        "hide",
+        "suppress",
+        "material"
+    ],
+    "license"    : "MIT",
+    "ignore"     : [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "gulpfile.js"
+    ]
 }
